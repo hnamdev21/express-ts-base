@@ -34,12 +34,11 @@
     "skipLibCheck": true,
 
     /* Paths */
+    "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
       "@/utils/*": ["./src/utils/*"],
       "@/constants/*": ["./src/constants/*"]
     }
-  },
-  "include": ["**/*.ts"],
-  "exclude": ["node_modules"]
+  }
 }
